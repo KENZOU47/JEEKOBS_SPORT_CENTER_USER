@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",san-serif ;
+
+}
+body{
+    background-color: aqua;
+    background: linear-gradient(to right,#c6c0c0,#a57474);
+}
+.container{
+    background: #ffff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+
+}
+form{
+    margin: 0 2rem;
+
+}
+.form-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+input{
+    color: black;
+    width: 100%;
+    background-color: aqua;
+    height: 30px;
+    border-radius: 10px;
+    border-bottom: 1px;
+    padding-left: 1.9rem;
+    font-size: 14px;
+}
+.input-group{
+padding: 2% 0;
+position: relative;
+}
+.input-group i{
+    position: absolute;
+    color: black;
+    margin-top: 4px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+input::placeholder{
+color: transparent;
+}
+label{
+    color: #a57474;
+    position: relative;
+   cursor: auto;
+   position: relative;
+   transition: 0.3s ease all;
+   left: 1.6em;
+   top: -1.4em;
+    
+}
+input:focus~label,input:not(:placeholder-shown)~label{
+    top: -3em;
+    color: transparent;
+    font-size: 14px;
+}
+.btn{
+    color: white;
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid #757;
+    padding-left: rem;
+    font-size: 24px;
+    outline: none;
+    padding: 4px 0;
+    background: rgb(136, 136, 239);
+    transition: 0.9s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #07001f;
+}
+.or{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+
+}
+.icons{
+    text-align: center;
+}
+.icons i{
+    color: rgb(136, 136, 239);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid#dfe9f7;
+    margin: 0 15px;
+    transition: 1s;
+   
+
+}
+.icons i:hover{
+    background: hsl(256, 35%, 43%);
+    font-size: 1.6rem;
+    border: 2px solid rgb(136, 136, 239);
+    transition: 0.4s ease-in-out;
+}
+.recover{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+  text-align: right;
+
+}
+.recover a{
+    text-decoration: none;
+    color: rgb(136, 136, 239);
+    align-items: left;
+}
+.recover a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 0.9rem;
+    font-weight: bold;
+}
+button{
+    color: rgb(136, 136, 239);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover{
+    text-decoration: underline;
+    color: rgb(136, 136, 239);
+}
+

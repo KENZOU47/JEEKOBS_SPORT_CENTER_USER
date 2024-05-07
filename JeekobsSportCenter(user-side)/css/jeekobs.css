@@ -1,0 +1,321 @@
+@import url( 'https://fonts.goolgleapis.com/css?family=Poppins:400,500,700');
+
+
+
+/* ----- media quieries */
+
+
+@media (max-width:992px){
+
+}
+@media (max-width:768px){
+    
+}
+
+
+@media (max-width:576px){
+    
+}
+
+/* firefox bug fix */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: "Space Grotesk", sans-serif;
+
+    color: black;
+    position: relative;
+    
+    
+  
+
+}
+.navbar{
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 50px;
+    z-index: 100000;
+}
+#navbarScroll ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbarScroll ul li{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.5s;
+}
+img{
+    height: 2rem;
+}
+
+.navbar-brand:hover{
+    color: aqua;
+}
+.nav-link{
+  
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Anta", sans-serif;
+}
+
+
+.nav-link:hover{
+    color: black;
+}
+.search{
+    
+    height: 40px;
+    width: 80%;
+    border-radius: 68px;
+    outline: none;
+    border: 2px solid rgb(248, 36, 88);
+   margin-right: -35px;
+   font-family: "Anta", sans-serif;
+}
+.btn-0{
+    height: 40px;
+    width: 35%;
+    outline: none;
+    border: none;
+    background: rgb(248, 36, 88);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 68px;
+
+}
+
+.main{
+    background:  url(background.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: aqua;
+    font-family: "Anta", sans-serif;
+}
+
+
+.main span{
+    font-size: 2rem;
+    font-weight: 200;
+    color: aqua;
+    font-family: "Anta", sans-serif;
+}
+.btn{
+    height: 40px;
+    width: 15%;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-top: 20px;
+    outline: none;
+    font-family: "Anta", sans-serif;
+    font-weight: 500;
+
+}
+.btn:hover{
+    color: #000;
+    background-color: bisque;
+    transition: 0.5s ease;
+    
+}
+.img-luid{
+    height:70px;
+    width: 30%;
+    border: none;
+    outline: none ;
+    background: transparent;
+
+}
+h6{
+    font-family: "Anta", sans-serif ;
+    font-size: 1rem;
+    font-weight: 200;
+  
+}
+h1{
+    font-family: "Anta", sans-serif;
+}
+.btn1 {
+    height: 45px;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-top: 20px;
+    outline: none;
+   
+    font-weight: 500;
+
+}
+.btn1:hover{
+    color: #000;
+    background-color: bisque;
+    transition: 0.5s ease;
+}
+.card:hover{
+    box-shadow: -8px 8px 8px 0px rgba(212,113,68,0.44);
+    -webkit-box-shadow: -8px 8px 8px 0px rgba(212,113,68,0.44);
+    -moz-box-shadow: -8px 8px 8px 0px rgba(212,113,68,0.44);
+    transition: 0.5s ease-in-out;
+}
+.img1{
+    height: 20rem;
+    width: 100%;
+    
+  
+  
+
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.apple{
+    background:linear-gradient(rgba( 0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(run4.jpg)no-repeat;
+    background-size: cover;
+  
+    height: 70vh;
+    width: 100%;
+
+}
+.news{
+    background-color: #000;
+    color: #fff;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: #fff;
+    margin-left: -10px;
+    border: 2px solid #fff;
+    font-weight: 600;
+
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    background: #000;
+    outline: none;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: #fff;
+}
+.news p{
+    margin: 0;
+
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.fab:hover{
+  color: aqua;
+}
+.about{
+    background-color:thistle;
+}
+
+.popup{
+    width: 400px;
+
+    background: aqua;
+    border-radius: 6px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    visibility: hidden;
+    padding: 0 30px 30px;
+    color: #473f3f;
+    transition: transform 0.4s, top 0.4s;
+    opacity: 0;
+
+
+}
+.popup.active{
+    visibility: visible;
+    opacity: 1;
+    top: 50;
+    left: 50%;
+    transform: translate(-50%, 50%) scale(1);
+}
+section#blur.active{
+   
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+
+}
+.popup h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+.btnPop{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #475f3f;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba( 0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* 
+Extra small (xs) devices (potrait phones, less than 576px)
+no media query since this is the default in boostrap
+
+Small (sm) devices (landscapes phones, 576px and up)
+@media (min-width:576px) {....}
+Medium (md) devices (tablets, 768px and up)
+@media (min-width:768px) {...}
+Large (lg) large devices (desktops 992px and up)
+ @media (min-width:992px) {...}
+ Extra (xl) large devices ( large desktops 1200px and up)
+ @media (min-width:1200px) {...}
