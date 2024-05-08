@@ -49,12 +49,14 @@
     padding: 20px 50px;
     z-index: 100000;
 }
+
 #navbarScroll ul{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #navbarScroll ul li{
     position: relative;
     margin: 0 15px;
@@ -64,6 +66,7 @@
     font-weight: 500px;
     transition: 0.5s;
 }
+
 img{
     height: 2rem;
 }
@@ -71,6 +74,7 @@ img{
 .navbar-brand:hover{
     color: aqua;
 }
+
 .nav-link{
   
     margin-right: 10px;
@@ -80,12 +84,12 @@ img{
     font-family: "Anta", sans-serif;
 }
 
-
-.nav-link:hover{
+.collapse a{
     color: black;
+    outline: none;
 }
-.search{
-    
+
+.search{   
     height: 40px;
     width: 80%;
     border-radius: 68px;
@@ -94,6 +98,11 @@ img{
    margin-right: -35px;
    font-family: "Anta", sans-serif;
 }
+
+.nav-item1{
+    color: black;
+}
+
 .btn-0{
     height: 40px;
     width: 35%;
@@ -189,12 +198,7 @@ h1{
 .img1{
     height: 20rem;
     width: 100%;
-    
-  
-  
-
 }
-
 
 .row1{
     display: flex;

@@ -93,7 +93,7 @@ function addCarToHTML  () {
             let totalPrice =info.price*cart.quantity;
             totalAmount+=totalPrice
             newCart.innerHTML = `   <div class="image">
-            <img src="${info.image}" alt="">
+            <img src="${img/info.image}" alt="">
         </div>
         <div class="">${info.name}</div>
         <div class="totalPrice">$${info.price * cart.quantity}</div>
@@ -208,7 +208,7 @@ function clearCart() {
 
 function initApp  ()  {
  
-    fetch('js/products.json')
+    fetch('/js/products.json')
     .then(response => response.json())
     .then(data => {
         listProducts = data;
