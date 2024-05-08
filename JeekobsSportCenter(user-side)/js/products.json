@@ -24,42 +24,42 @@
     "id": 4,
     "name":"Sport ball2",
     "price":299,
-    "image":"img/ball2-removebg-preview.png"
+    "image":"../img/ball2-removebg-preview.png"
     
 },
 {
     "id": 5,
     "name":"Sport ball3",
     "price":199,
-    "image":"img/ball3-removebg-preview.png"
+    "image":"../img/ball3-removebg-preview.png"
     
 },
 {
     "id": 6,
     "name":"Sport shirt",
     "price":399,
-    "image":"img/jerseyadidas-removebg-preview.png"
+    "image":"../img/jerseyadidas-removebg-preview.png"
     
 },
 {
     "id": 7,
     "name":"Sport ball4",
     "price":199,
-    "image":"img/ball4-removebg-preview.png"
+    "image":"../img/ball4-removebg-preview.png"
     
 },
 {
     "id": 8,
     "name":"Johny Rolds",
     "price":99999,
-    "image":"img/harold-removebg-preview.png"
+    "image":"../img/harold-removebg-preview.png"
     
 },
 {
     "id": 9,
     "name":"Sport shoe 4",
     "price":199,
-    "image":"img/shoes9-removebg-preview.png"
+    "image":"../img/shoes9-removebg-preview.png"
     
 }
 ]
