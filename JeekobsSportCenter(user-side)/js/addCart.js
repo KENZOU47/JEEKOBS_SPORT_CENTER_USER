@@ -1,5 +1,3 @@
-
-
 var iconCart=document.querySelector('.icon-cart');
 var body=document.querySelector('body');
 var closeCart=document.querySelector('.close');
@@ -21,7 +19,7 @@ closeCart.addEventListener('click', ()=>{
 checkOutCart.addEventListener('click',()=>{
 
 })
-function addDataToHTML (){
+function addDataToHTML(){
     listProductHTML.innerHTML = '';
     if(listProducts.length>0){
         listProducts.forEach(product =>{
@@ -174,14 +172,9 @@ checkOutCart.addEventListener('click', () => {
 function checkout() {
   
     const popup = document.querySelector('.popup');
-    popup.style.display = 'block';
-   
+    popup.style.display = 'block'; 
 
-    
-    clearCart();
-  
-   
-    
+    clearCart();   
 }
 
 
@@ -202,13 +195,9 @@ function clearCart() {
 }
 
 
-
-
-
-
-function initApp  ()  {
+function initApp()  {
  
-    fetch('/js/products.json')
+    fetch('products.json')
     .then(response => response.json())
     .then(data => {
         listProducts = data;

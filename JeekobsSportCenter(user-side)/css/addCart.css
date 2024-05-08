@@ -1,6 +1,5 @@
-
 @import url( 'https://fonts.goolgleapis.com/css?family=Poppins:400,500,700');
-
+    
 @media (max-width:992px){
 
 }
@@ -15,11 +14,15 @@
 *{
     text-decoration: none;
     list-style: none;
+    font-family: "Space Grotesk", sans-serif;
 }
+
+
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
+
+
 .container{
     width: 900px;
     max-width: 90vw;
@@ -30,34 +33,45 @@ body{
     font-family: "Space Grotesk", sans-serif;
 
 }
+
+
 h2{
     font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
     
 }
+
+
 .title{
     font-family: "Space Grotesk", sans-serif;
     font-size: 2rem;
 }
+
+
 .addCart{
     font-family: "Space Grotesk", sans-serif;
     font-size: 1rem;
 }
+
+
 svg{
     width: 30px;
 }
+
+
 header{
     display: flex;
     justify-content: space-between;
     padding: 20px 35px;
   
 }
+
+
+
 .icon-cart{
     position: relative;
 
 }
-
-
 .icon-cart span{
     display: flex;
     width: 30px;
@@ -71,12 +85,12 @@ header{
     top: 50%;
     right: -20px;
 }
+
+
+
 .listProduct .item img{
     width: 90%;
     filter:drop-shadow( 0 50px 20px #0009);
-     
-   
-
 }
 .listProduct{
     margin-top: 150px;
@@ -94,12 +108,10 @@ header{
 .listProduct .item h2{
     font-weight: 500;
 }
-
 .listProduct .item .price{
 letter-spacing: 7px;
 font-size: small;
 }
-
 .listProduct .item button{
     background-color: #353432;
     color: #eee;
@@ -112,12 +124,19 @@ font-size: small;
 .listProduct .item button:hover{
     background-color: thistle;
 }
+
+
+
 body.showCart .cartTab{
     inset: 0 0 0 auto;
 }
+
 body.showCart .container{
     transform: translateX(-250px);
 }
+
+
+
 .cartTab{
     width: 400px;
     background-color:cadetblue;
@@ -128,19 +147,16 @@ body.showCart .container{
     grid-template-rows: 70px 1fr 70px;
     transition: 0.5s;
 }
-
 .cartTab h1{
     padding: 20px;
     margin: 0;
     font-weight: 300;
 
 }
-
 .cartTab .btn {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 }
-
 .cartTab .btn button{
     background-color: #86847d;
         border: none;
@@ -156,10 +172,11 @@ grid-template-columns: repeat(2, 1fr);
     background-color: #c5c0c0;
     transition: 0.4s ease-in-out;
 }
+
+
 .cartTab .listCart .item img{
     width: 100%;
 }
-
 .cartTab .listCart .item{
     display: grid;
     grid-template-columns: 70px 150px 50px 1fr;
@@ -196,8 +213,6 @@ grid-template-columns: repeat(2, 1fr);
 }
 .listCart .item:nth-child(even){
     background-color: #eee1;
-
-
 }
 .listCart{
     
@@ -207,12 +222,15 @@ grid-template-columns: repeat(2, 1fr);
     width: 0;
 
 }
+
+
 @media screen and (max-width: 992px) {
     .listProduct{
         grid-template-columns: repeat(3, 1fr)
     }
    
 }
+
 
 .logo{
     position: relative;
@@ -225,6 +243,7 @@ grid-template-columns: repeat(2, 1fr);
     transition: 0.6s;
 } 
 
+
 #product-list{
     font-size: large;
     font-weight: 500;
@@ -232,22 +251,23 @@ grid-template-columns: repeat(2, 1fr);
     font-family: "Anta", sans-serif;
    
 }
+
+
 .navbar-brand{
     font-size: 2rem;
     font-family: "Space Grotesk", sans-serif;
-
     color: black;
     position: relative;
     text-decoration: none;
-    left: -20%;
-    
-    
-  
-
+    left: -20%; 
 }
+
+
 .pic{
     height: 2rem;
 }
+
+
 .foot{
     display: flex;
     justify-content: space-between;
@@ -255,6 +275,8 @@ grid-template-columns: repeat(2, 1fr);
     padding: 10px 0px;
     border-top: 1px solid #333  ;
 }
+
+
 .nav-link{
   
     margin-right: 10px;
@@ -263,22 +285,27 @@ grid-template-columns: repeat(2, 1fr);
     text-transform: uppercase;
     font-family: "Anta", sans-serif;
 }
+
+
 .navbar{
     background-color: aqua;
 }
-.fa-regular{
-    
+
+
+.fa-regular{   
     font-size: 20px;
 }
+
+
 .dropdown-menu .dropdown-item:hover{
     background-color: aqua;
-
-
 }
+
+
 #log:hover{
-   color: rgb(67, 219, 219);
-    
+   color: rgb(67, 219, 219);   
 }
+
 
 /* Styles for the total amount */
 .totalAmount {
@@ -343,3 +370,21 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 
+.material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+  }
+
+  .material-symbols-outlined {
+    font-size: 2.1rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+
+  .material-symbols-outlined:hover {
+    color: brown;
+  }
