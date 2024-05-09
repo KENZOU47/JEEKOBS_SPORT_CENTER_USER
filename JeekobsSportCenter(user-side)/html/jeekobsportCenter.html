@@ -54,19 +54,19 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav m-auto my-2 my-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" href="#Home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="add_cart.html">Store</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trending</a>
+                <a class="nav-link" href="#section1">Trending</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="#section2">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link" href="#section3">Contact us</a>
                 </li>
                 <li class="nav-item1">
                  <a class="material-symbols-outlined" href="../index.html">Logout</a>           
@@ -84,15 +84,13 @@
       </nav>
      
 <!--- First section-->
-      <section class="main">
+      <section class="main" id="Home">
         <div class="container py-5" >
             <div class="row py-4">
-                <div class="col-lg-7 pt-5 "> <h1>
-                        Ready set go!
-                        
-                </h1>
+                <div> <h1 id="ready"> Ready set go!</h1>
+
                 <span class="pt-5">Don't stop until you reached the goal</span><br>
-                <button class="btn mt-3"  onclick="goToShop()"> Shop now</button>
+                <button class="btn" onclick="goToShop()"> Shop now</button>
             </div>
             </div>
         </div>
@@ -131,7 +129,7 @@
 
 </section>
 
-<section class="product" >
+<section class="product" id="section1">
   <div class="container py-5">
     <div class="row py-5 ">
       <div class="col-lg-5 m-auto text-center">
@@ -189,7 +187,7 @@
   </div>
 </section>
 
-<section class="about">
+<section class="about" id="section2">
   <div class="container py-5" >
     <div class="row py-5">
       <div class="col-lg-8 m-auto text-center mb-3" >
@@ -330,7 +328,7 @@
       <div class="col-lg-6">
         <h1 class="font-weight-bold py-3">Push Your Limits With Jeekobs Help</h1>
         <h6>Start grinding now</h6>
-        <button class="btn1 mt-3">View store</button>
+        <button class="btn1 mt-3" onclick="goToShop()">View store</button>
       </div>
     </div>
   </div>
@@ -338,7 +336,7 @@
 
 
 
-<section class="contact py-5"  >
+<section class="contact py-5" id="section3">
   <div class="container py-5">
     <div class="row">
       <div class="col-lg-5 m-auto text-center">

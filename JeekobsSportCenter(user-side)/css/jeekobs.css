@@ -123,35 +123,41 @@ img{
     background-position: 50% 50%;
 }
 
-.main h1{
+ #ready{
+    margin-left: 29%;
+    margin-top: 150px;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 6rem;
     color: aqua;
     font-family: "Anta", sans-serif;
 }
 
 
 .main span{
+    margin-left: 31%;
     font-size: 2rem;
     font-weight: 200;
-    color: aqua;
+    color: bisque;
     font-family: "Anta", sans-serif;
 }
 .btn{
-    height: 40px;
-    width: 15%;
+    height: 70px;
+    width: 20%;
     border: none;
     border-radius: 10px;
     background-color: aqua;
-    margin-top: 20px;
+    margin-top: 150px;
+    margin-left: 540px;
     outline: none;
+    font-size: 30px;
     font-family: "Anta", sans-serif;
     font-weight: 500;
-
+    transition: 0.4s ease;
 }
 .btn:hover{
-    color: #000;
-    background-color: bisque;
+    color: white;
+    background-color: transparent;
+    border: 1px solid aqua;
     transition: 0.5s ease;
     
 }
